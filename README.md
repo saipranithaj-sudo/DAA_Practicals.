@@ -1,4 +1,5 @@
 # DAA
+Practical 1
 SUMMARY
 
 Sorting algorithms are essential techniques used to arrange data in a specific order, such as ascending or descending. Common sorting methods include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort. Each algorithm has different characteristics in terms of time complexity, memory usage, and efficiency. Simple algorithms like Bubble, Selection, and Insertion Sort are easy to understand and suitable for small datasets, while Merge Sort and Quick Sort are more efficient and preferred for large datasets.

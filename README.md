@@ -8,3 +8,17 @@ Sorting algorithms are essential techniques used to arrange data in a specific o
 CONCLUSION
 
 The choice of a sorting algorithm depends on the size and nature of the data. Bubble Sort, Selection Sort, and Insertion Sort are ideal for learning basic sorting concepts and handling small datasets. Merge Sort provides stable and consistent performance with a time complexity of O(n log n), while Quick Sort is generally the fastest in practice for large datasets due to its average-case O(n log n) performance. Understanding these algorithms helps in selecting the most suitable sorting technique for different applications and improves overall program efficiency.
+
+Practical 2
+
+SUMMARY
+
+Linear Search and Binary Search are two commonly used searching algorithms for finding an element in a collection of data. Linear Search checks each element one by one and works with both sorted and unsorted data, making it simple but less efficient for large datasets. Binary Search, on the other hand, works only on sorted data and repeatedly divides the search space into halves, making it much faster and more efficient for large datasets.
+
+CONCLUSION
+
+Both Linear Search and Binary Search are important searching techniques with different use cases. Linear Search is suitable for small or unsorted datasets due to its simplicity, while Binary Search is the better choice for large, sorted datasets because of its faster performance. Choosing the appropriate algorithm depends on the size and organization of the data.
+
+Practical 3
+
+

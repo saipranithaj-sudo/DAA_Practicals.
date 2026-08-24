@@ -21,4 +21,31 @@ Both Linear Search and Binary Search are important searching techniques with dif
 
 Practical 3
 
+SUMMARY
+
+Max Heap Sort is a comparison-based sorting algorithm that uses a Max Heap data structure. First, the given elements are arranged into a Max Heap, where the largest element is placed at the root. The largest element is then moved to the end of the array, and the heap is rebuilt for the remaining elements. This process continues until all elements are sorted in ascending order. The algorithm has a time complexity of O(n log n) in the best, average, and worst cases.
+
+CONCLUSION
+
+Max Heap Sort is an efficient and reliable sorting algorithm, especially when consistent performance is required. It does not require an additional array for sorting and has a worst-case time complexity of O(n log n). Therefore, Max Heap Sort is suitable for sorting large datasets efficiently.
+
+Practical 4
+
+SUMMARY
+
+The recursive and iterative methods are two different approaches to solving a problem such as finding the factorial of a number. In the recursive method, a function calls itself repeatedly until it reaches a base condition. In the iterative method, loops such as for or while are used to repeat the required operations. Both methods produce the same result, but they differ in implementation and memory usage.
+
+CONCLUSION
+
+Both recursive and iterative methods are useful for solving computational problems. Recursion makes the code simpler and easier to understand for problems that naturally involve repeated subproblems, but it uses additional memory for function calls. Iteration generally uses less memory and can be more efficient for simple repetitive operations. Therefore, the choice between recursion and iteration depends on the problem requirements and efficiency considerations.
+
+Practical 7
+
+SUMMARY
+
+Dynamic Programming (DP) is an algorithm design technique used to solve complex problems by breaking them into smaller subproblems. The results of these subproblems are stored and reused instead of calculating them repeatedly. This reduces unnecessary computations and improves the efficiency of algorithms. Dynamic Programming mainly uses two approaches: Memoization (Top-Down) and Tabulation (Bottom-Up).
+
+CONCLUSION
+
+Dynamic Programming is an efficient technique for solving problems with overlapping subproblems and optimal substructure. It can significantly reduce execution time compared with simple recursive approaches. Although DP may require additional memory to store intermediate results, it provides better performance for many complex problems. Therefore, Dynamic Programming is widely used in algorithms such as Fibonacci, 0/1 Knapsack, Coin Change, and Longest Common Subsequence (LCS).
 

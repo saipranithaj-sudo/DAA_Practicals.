@@ -49,3 +49,17 @@ CONCLUSION
 
 Dynamic Programming is an efficient technique for solving problems with overlapping subproblems and optimal substructure. It can significantly reduce execution time compared with simple recursive approaches. Although DP may require additional memory to store intermediate results, it provides better performance for many complex problems. Therefore, Dynamic Programming is widely used in algorithms such as Fibonacci, 0/1 Knapsack, Coin Change, and Longest Common Subsequence (LCS).
 
+practical 6
+
+SUMMARY
+
+Chain Matrix Multiplication is an important Dynamic Programming problem used to find the most efficient order for multiplying a sequence of matrices. The program uses a DP table to store the minimum multiplication cost for different matrix chains. The formula
+
+$$ dp[i][j] = \min_{i \leq k < j} \{dp[i][k] + dp[k+1][j] + p[i-1]\times p[k]\times p[j]\} $$
+
+is used to calculate the minimum cost. The program accepts matrix dimensions from the user and also measures the execution time. Its time complexity is O(n³) and space complexity is O(n²).
+
+CONCLUSION
+
+The Dynamic Programming approach provides an efficient way to solve the Chain Matrix Multiplication problem by avoiding repeated calculations. It determines the optimal multiplication order with minimum scalar multiplication cost. The use of a DP table makes the solution systematic and efficient compared with checking every possible parenthesization. The execution-time measurement also helps analyze the practical performance of the algorithm.
+

@@ -72,3 +72,13 @@ The graph was implemented in Python using an adjacency list representation. Two 
 CONCLUSION
 
 The implementation successfully demonstrated graph traversal using DFS and BFS in Python. DFS is useful for exploring paths and connected components, while BFS is useful for level-wise traversal and finding shortest paths in unweighted graphs. Thus, both algorithms are important techniques for graph searching and problem solving.
+
+Practical 9
+
+SUMMARY
+
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It starts from any vertex and repeatedly selects the minimum-weight edge that connects a selected vertex to an unselected vertex. The process continues until all vertices are included in the MST.
+
+CONCLUSION
+
+The implementation of Prim’s Algorithm in Python successfully finds the Minimum Spanning Tree and calculates its minimum total cost. The algorithm is useful for solving network and connection problems where the objective is to connect all vertices with minimum possible cost.

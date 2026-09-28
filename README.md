@@ -63,3 +63,12 @@ CONCLUSION
 
 The Dynamic Programming approach provides an efficient way to solve the Chain Matrix Multiplication problem by avoiding repeated calculations. It determines the optimal multiplication order with minimum scalar multiplication cost. The use of a DP table makes the solution systematic and efficient compared with checking every possible parenthesization. The execution-time measurement also helps analyze the practical performance of the algorithm.
 
+Practical 8
+
+SUMMARY
+
+The graph was implemented in Python using an adjacency list representation. Two graph searching techniques, Depth-First Search (DFS) and Breadth-First Search (BFS), were implemented to traverse the graph. DFS explores nodes deeply using recursion, while BFS explores nodes level by level using a queue. Both methods have a time complexity of O(V + E).
+
+CONCLUSION
+
+The implementation successfully demonstrated graph traversal using DFS and BFS in Python. DFS is useful for exploring paths and connected components, while BFS is useful for level-wise traversal and finding shortest paths in unweighted graphs. Thus, both algorithms are important techniques for graph searching and problem solving.
